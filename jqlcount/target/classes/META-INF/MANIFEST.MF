@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2023-12-04T16:24:31+0000
+Atlassian-Plugin-Key: a9.jqlcount
+Bnd-LastModified: 1701707093759
+Build-Jdk: 11.0.16
+Built-By: root
+Bundle-Description: This is the a9:jqlcount plugin for Atlassian JIRA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: jqlcount
+Bundle-SymbolicName: a9.jqlcount
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: a9.api;version="1.0.0"
+Import-Package: org.eclipse.gemini.blueprint.context;resolution:=optiona
+ l,org.eclipse.gemini.blueprint.service.exporter;resolution:=optional,or
+ g.eclipse.gemini.blueprint.service.exporter.support;resolution:=optiona
+ l,org.eclipse.gemini.blueprint.service.importer.support;resolution:=opt
+ ional,a9.api,com.atlassian.annotations.nonnull,com.atlassian.plugin,com
+ .atlassian.plugin.module,com.atlassian.plugin.osgi.external,com.atlassi
+ an.sal.api,javax.annotation,org.osgi.framework,org.slf4j,org.springfram
+ ework.beans,org.springframework.beans.factory,org.springframework.beans
+ .factory.config,org.springframework.cglib.core,org.springframework.cgli
+ b.proxy,org.springframework.cglib.reflect,org.springframework.context,o
+ rg.springframework.context.annotation,org.springframework.core.type
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849
